@@ -1,0 +1,22 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: blue;
+}
+
+.navbar {
+  background-color: green;
+}
+
+.banner {
+  background-color: red;
+  width: 100vw;
+  height: 25%;
+}
+
+.footer {
+  background-color: yellow;
+  width: 100vw;
+  height: 25vw;
+}
+/*# sourceMappingURL=style.css.map */
