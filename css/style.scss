@@ -1,11 +1,17 @@
 body {
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   background-color: blue;
 }
 
 .navbar {
   background-color: green;
+  padding: 20px;
+}
+
+.wrapper {
+  padding: 20px;
+  display: block;
 }
 
 .banner {
@@ -15,7 +21,8 @@ body {
 }
 
 .footer {
+  bottom: 0;
   background-color: yellow;
-  width: 100vw;
-  height: 25vw;
+  width: 100%;
+  height: 15%;
 }
