@@ -1,12 +1,17 @@
 body {
   width: 100%;
   height: 100vh;
-  background-color: blue;
 }
 
 .navbar {
   background-color: green;
   padding: 20px;
+}
+
+.logo {
+  width: 50px;
+  background-color: blue;
+  height: 2%;
 }
 
 .wrapper {
@@ -17,12 +22,13 @@ body {
 .banner {
   background-color: red;
   width: 100vw;
-  height: 25%;
+  height: 50%;
 }
 
 .footer {
   bottom: 0;
-  background-color: yellow;
+  color: white;
+  background-color: #3b321f;
   width: 100%;
   height: 15%;
 }
