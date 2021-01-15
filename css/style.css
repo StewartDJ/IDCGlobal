@@ -1,6 +1,7 @@
 body {
   width: 100%;
   height: 100vh;
+  background-color: white;
 }
 
 .navbar {
@@ -21,12 +22,13 @@ body {
 
 .banner {
   background-color: red;
-  width: 100vw;
-  height: 50%;
+  background-image: url("./assets/construction-site-and-bulldozzer.jpg");
+  height: 40%;
 }
 
 .footer {
   bottom: 0;
+  padding: 20px;
   color: white;
   background-color: #3b321f;
   width: 100%;
