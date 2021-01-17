@@ -22,11 +22,13 @@ body {
 }
 
 .nav-item {
-  border-left: 1px solid black;
+  border-left: 2px solid black;
   padding-left: 5px;
   padding-right: 5px;
 }
-
+.nav-link {
+  color: blue;
+}
 .wrapper {
   padding: 20px;
   display: block;
@@ -43,10 +45,11 @@ body {
   }
 }
 
-h2 {
-  border-bottom: 5px solid blue;
-  width: 25%;
-}
+// h1 {
+//   border-bottom: 5px solid blue;
+//   padding-bottom: 5px;
+//   width: 25%;
+// }
 
 .center {
   margin: auto;
@@ -76,6 +79,7 @@ h2 {
 }
 
 .footer {
+  border-top: 5px solid rgb(199, 199, 199);
   bottom: 0;
   padding: 20px;
   color: white;
@@ -88,3 +92,34 @@ h2 {
 
 // NEWS PAGE CODE START
 // NEWS PAGE CODE END
+
+.bg-white {
+  border-left: blue 15px solid;
+}
+.underline {
+  position: relative;
+  /* border-bottom: 5px solid brown; */
+  padding: 10px;
+}
+/* .underline:hover {
+  /* border-bottom: 5px solid brown; */
+.underline::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 5px;
+  bottom: 0;
+  left: 0;
+  /* background-color: brown; */
+  background-color: hsl(199, 85%, 63%);
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.5s ease-out 0s;
+  /* margin-top: 20px; */
+  margin-bottom: -3px;
+}
+
+.underline:hover::before {
+  visibility: visible;
+  transform: scaleX(1);
+}
