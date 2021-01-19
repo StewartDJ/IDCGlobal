@@ -123,8 +123,12 @@ body {
 // HOMEPAGE CODE START
 
 .wrapper {
-  padding-left: 30px;
-  padding-right: 30px;
+  // padding-left: auto;
+  // text-align: center;
+  // justify-content: center;
+  // justify-self: center;
+  // padding-left: auto;
+  // padding-right: auto;
   // display: block;
 }
 
@@ -234,15 +238,27 @@ h5 {
   transform: scaleX(1);
 }
 
-.card-body {
-  // border-top: 3px solid blue;
-  // background-color: blue;
-}
-
 .card {
   overflow-x: hidden;
   img {
     width: 100%;
+  }
+}
+
+.partners {
+  // background-color: blue;
+  width: 100vw;
+  // display: flex;
+  img {
+    height: 100px;
+    text-align: center;
+    margin: auto;
+
+    padding: 5px;
+    // flex: 1;
+  }
+  h2 {
+    text-align: center;
   }
 }
 
