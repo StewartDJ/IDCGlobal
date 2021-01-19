@@ -37,6 +37,7 @@ body {
   padding: 20px;
   background-color: #01579b;
   color: white;
+  height: 50vh;
 }
 
 .banner {
@@ -80,8 +81,17 @@ body {
   background-color: #03a9f4 !important;
 }
 
-b {
-  color: blue;
+.image-trim-card {
+  width: 100%;
+  /* width of container */
+  height: 35%;
+  /* height of container */
+  overflow: hidden;
+  border: 5px solid black;
+}
+
+.image-trim-card img {
+  width: 100%;
 }
 
 .center {
@@ -91,10 +101,6 @@ b {
 .imageGroup {
   position: relative;
   text-align: center;
-}
-
-h5 {
-  color: blue !important;
 }
 
 .map img {
@@ -173,16 +179,23 @@ h5 {
   width: 100%;
 }
 
+.margin20 {
+  margin: 20px;
+}
+
 .partners {
   width: 100%;
   padding: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .partners img {
-  height: 50px;
+  height: 40px;
   margin: 5px;
 }
 

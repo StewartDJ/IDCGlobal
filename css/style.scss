@@ -54,6 +54,7 @@ body {
   padding: 20px;
   background-color: $primary;
   color: white;
+  height: 50vh;
 }
 
 .banner {
@@ -98,6 +99,18 @@ body {
   background-color: #03a9f4 !important;
 }
 
+.image-trim-card {
+  width: 100%; /* width of container */
+  height: 35%; /* height of container */
+  overflow: hidden;
+  border: 5px solid black;
+
+  img {
+    width: 100%;
+    // margin: -10px 0px 0px -180px;
+  }
+}
+
 // .bgSpread {
 //   width: 100%; /* width of container */
 //   height: 60%; /* height of container */
@@ -138,9 +151,9 @@ body {
 //   width: 25%;
 // }
 
-b {
-  color: blue;
-}
+// b {
+//   color: blue;
+// }
 
 .center {
   margin: auto;
@@ -149,10 +162,6 @@ b {
 .imageGroup {
   position: relative;
   text-align: center;
-}
-
-h5 {
-  color: blue !important;
 }
 
 .map {
@@ -210,6 +219,7 @@ h5 {
 .bg-white {
   border-left: blue 15px solid;
 }
+
 .underline {
   position: relative;
   /* border-bottom: 5px solid brown; */
@@ -245,13 +255,19 @@ h5 {
   }
 }
 
+.margin20 {
+  margin: 20px;
+}
+
 .partners {
   // background-color: blue;
   width: 100%;
   padding: 20px;
   display: flex;
+  justify-content: center;
+
   img {
-    height: 50px;
+    height: 40px;
     // text-align: center;
     margin: 5px;
     // flex: 1;
