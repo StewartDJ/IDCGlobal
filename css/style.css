@@ -12,6 +12,10 @@ body {
   height: 90px;
 }
 
+.margin20 {
+  margin-top: 20px;
+}
+
 .logo {
   width: 50px;
   background-color: blue;
