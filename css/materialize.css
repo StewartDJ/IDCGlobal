@@ -2368,7 +2368,6 @@ svg:not(:root) {
  * 1. Change the font styles in all browsers (opinionated).
  * 2. Remove the margin in Firefox and Safari.
  */
-button,
 input,
 optgroup,
 select,
@@ -2387,7 +2386,6 @@ textarea {
  * Show the overflow in IE.
  * 1. Show the overflow in Edge.
  */
-button,
 input {
   /* 1 */
   overflow: visible;
@@ -2397,7 +2395,7 @@ input {
  * Remove the inheritance of text transform in Edge, Firefox, and IE.
  * 1. Remove the inheritance of text transform in Firefox.
  */
-button,
+/* button, */
 select {
   /* 1 */
   text-transform: none;
@@ -2408,34 +2406,34 @@ select {
  *    controls in Android 4.
  * 2. Correct the inability to style clickable types in iOS and Safari.
  */
-button,
-html [type="button"],
+/* button, */
+/* html [type="button"],
 [type="reset"],
 [type="submit"] {
-  -webkit-appearance: button;
+  -webkit-appearance: button; */
   /* 2 */
-}
+/* } */
 
 /**
  * Remove the inner border and padding in Firefox.
  */
-button::-moz-focus-inner,
+/* button::-moz-focus-inner,
 [type="button"]::-moz-focus-inner,
 [type="reset"]::-moz-focus-inner,
 [type="submit"]::-moz-focus-inner {
   border-style: none;
   padding: 0;
-}
+} */
 
 /**
  * Restore the focus styles unset by the previous rule.
  */
-button:-moz-focusring,
+/* button:-moz-focusring,
 [type="button"]:-moz-focusring,
 [type="reset"]:-moz-focusring,
 [type="submit"]:-moz-focusring {
   outline: 1px dotted ButtonText;
-}
+} */
 
 /**
  * Correct the padding in Firefox.
@@ -2500,10 +2498,10 @@ textarea {
 /**
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
-[type="number"]::-webkit-inner-spin-button,
+/* [type="number"]::-webkit-inner-spin-button,
 [type="number"]::-webkit-outer-spin-button {
   height: auto;
-}
+} */
 
 /**
  * 1. Correct the odd appearance in Chrome and Safari.
@@ -2519,21 +2517,21 @@ textarea {
 /**
  * Remove the inner padding and cancel buttons in Chrome and Safari on macOS.
  */
-[type="search"]::-webkit-search-cancel-button,
+/* [type="search"]::-webkit-search-cancel-button,
 [type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
-}
+} */
 
 /**
  * 1. Correct the inability to style clickable types in iOS and Safari.
  * 2. Change font properties to `inherit` in Safari.
  */
-::-webkit-file-upload-button {
-  -webkit-appearance: button;
+/* ::-webkit-file-upload-button {
+  -webkit-appearance: button; */
   /* 1 */
-  font: inherit;
+  /* font: inherit; */
   /* 2 */
-}
+/* } */
 
 /* Interactive
    ========================================================================== */
@@ -2590,7 +2588,7 @@ html {
   box-sizing: inherit;
 }
 
-button,
+/* button, */
 input,
 optgroup,
 select,
@@ -6223,10 +6221,10 @@ select:focus {
   outline: 1px solid #c9f3ef;
 }
 
-button:focus {
+/* button:focus {
   outline: none;
   background-color: #2ab7a9;
-}
+} */
 
 label {
   font-size: 0.8rem;

@@ -29,10 +29,8 @@ body {
 }
 
 .blurb {
-  border-top: 3px solid white;
   padding: 20px;
-  background-color: #01579b;
-  color: white;
+  background-color: yellow;
 }
 
 .banner {
@@ -45,7 +43,7 @@ body {
 
 .banner img {
   width: 100%;
-  margin-top: -100px;
+  margin-top: 10px;
 }
 
 .page-footer {
@@ -177,12 +175,17 @@ h5 {
           transform: scaleX(1);
 }
 
-.card {
+.card-body {
+  border-top: 3px solid blue;
+  background-color: blue;
+}
+
+card {
   overflow-x: hidden;
 }
 
-.card img {
-  width: 100%;
+card img {
+  width: 10px;
 }
 
 .contacts {

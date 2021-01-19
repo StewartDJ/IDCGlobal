@@ -2,16 +2,17 @@
 $blueOne: blue;
 $blueTwo: rgb(17, 17, 117);
 $backgroundColor: white;
+$primary: rgb(1, 87, 155);
 
 // All PAGES
 
-* {
-  font-family: "Oswald", sans-serif;
-}
+// * {
+//   font-family: "Oswald", sans-serif;
+// }
 
 body {
   width: 100%;
-  height: 100vh;
+  // height: 100vh;
   // background-color: $backgroundColor;
 }
 
@@ -44,13 +45,53 @@ body {
 
 // banner
 
+.blurb {
+  border-top: 3px solid white;
+  padding: 20px;
+  background-color: $primary;
+  color: white;
+}
+
 .banner {
   width: 100%;
-  float: left;
+  height: 60%;
+  object-fit: auto;
+  overflow: hidden;
   img {
     width: 100%;
-    // margin-top: 10px;
+    margin-top: -100px;
   }
+}
+
+.page-footer {
+  padding-top: 20px;
+  color: #fff;
+  /* border-top: 5px solid red; */
+  /* background-color: #ee6e73; */
+}
+
+.page-footer .footer-copyright {
+  overflow: hidden;
+  min-height: 50px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 10px 0px;
+  color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(51, 51, 51, 0.08);
+}
+
+.light-blue {
+  background-color: #03a9f4 !important;
 }
 
 // .bgSpread {
@@ -190,14 +231,14 @@ h5 {
 }
 
 .card-body {
-  border-top: 3px solid blue;
-  background-color: blue;
+  // border-top: 3px solid blue;
+  // background-color: blue;
 }
 
-card {
+.card {
   overflow-x: hidden;
   img {
-    width: 10px;
+    width: 100%;
   }
 }
 
