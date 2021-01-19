@@ -1,17 +1,26 @@
-// HOMEPAGE CODE START
+// Variables
+$blueOne: blue;
+$blueTwo: rgb(17, 17, 117);
+$backgroundColor: white;
+
+// All PAGES
+
 * {
   font-family: "Oswald", sans-serif;
 }
+
 body {
   width: 100%;
   height: 100vh;
-  // background-color: rgb(243, 236, 236);
-  background-color: white;
+  background-color: $backgroundColor;
 }
+
+// Navbar
 
 .navbar {
   background-color: green;
   padding: 20px;
+  height: 100%;
   img {
     height: 90px;
   }
@@ -28,15 +37,13 @@ body {
   padding-left: 5px;
   padding-right: 5px;
 }
+
 .nav-link li a {
   color: blue;
   font-family: "Oswald", sans-serif;
 }
 
-.wrapper {
-  padding: 20px;
-  display: block;
-}
+// banner
 
 .banner {
   width: 100%; /* width of container */
@@ -47,6 +54,23 @@ body {
     width: 100%;
     margin-top: -50px;
   }
+}
+
+// body {
+//   display: flex;
+//   min-height: 100vh;
+//   flex-direction: column;
+// }
+
+// main {
+//   flex: 1 0 auto;
+// }
+
+// HOMEPAGE CODE START
+
+.wrapper {
+  padding: 20px;
+  display: block;
 }
 
 // h1 {
@@ -87,7 +111,7 @@ body {
   bottom: 0;
   padding: 20px;
   color: white;
-  background-color: rgb(17, 17, 117);
+  background-color: $blueTwo;
   width: 100%;
   height: 15%;
   float: left;
