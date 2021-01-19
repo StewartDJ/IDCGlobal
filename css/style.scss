@@ -33,26 +33,23 @@ body {
 }
 
 .nav-item {
-  border-left: 2px solid black;
+  border-left: 1px solid black;
   padding-left: 5px;
   padding-right: 5px;
 }
 
 .nav-link li a {
-  color: blue;
   font-family: "Oswald", sans-serif;
 }
 
 // banner
 
 .banner {
-  width: 100%; /* width of container */
-  height: 60%; /* height of container */
-  object-fit: auto;
-  overflow: hidden;
+  width: 100%;
+  float: left;
   img {
     width: 100%;
-    margin-top: -50px;
+    // margin-top: 10px;
   }
 }
 
@@ -81,7 +78,8 @@ body {
 // HOMEPAGE CODE START
 
 .wrapper {
-  padding: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
   // display: block;
 }
 
@@ -90,6 +88,10 @@ body {
 //   padding-bottom: 5px;
 //   width: 25%;
 // }
+
+b {
+  color: blue;
+}
 
 .center {
   margin: auto;
@@ -146,9 +148,9 @@ h5 {
 
 .blueBackground {
   background-color: blue;
-  padding: 20px;
   width: 100vw;
   height: 200px;
+  float: left;
 }
 
 // HOMEPAGE CODE END
@@ -190,6 +192,13 @@ h5 {
 .card-body {
   border-top: 3px solid blue;
   background-color: blue;
+}
+
+card {
+  overflow-x: hidden;
+  img {
+    width: 10px;
+  }
 }
 
 .contacts {
