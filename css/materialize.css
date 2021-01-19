@@ -2981,7 +2981,8 @@ ul.staggered-list li {
 .page-footer {
   padding-top: 20px;
   color: #fff;
-  background-color: #ee6e73;
+  /* border-top: 5px solid red; */
+  /* background-color: #ee6e73; */
 }
 
 .page-footer .footer-copyright {
@@ -4819,7 +4820,7 @@ small {
   border-radius: 2px;
   background-color: #fff;
 }
-
+/* 
 .card {
   position: relative;
   margin: 0.5rem 0 1rem 0;
@@ -5037,7 +5038,7 @@ small {
 .card .card-reveal .card-title {
   cursor: pointer;
   display: block;
-}
+} */
 
 #toast-container {
   display: block;
@@ -5261,7 +5262,7 @@ small {
   visibility: hidden;
 }
 
-.btn,
+/* .btn,
 .btn-large,
 .btn-small,
 .btn-flat {
@@ -5453,7 +5454,7 @@ small {
 
 button.btn-floating {
   border: none;
-}
+} */
 
 .fixed-action-btn {
   position: fixed;

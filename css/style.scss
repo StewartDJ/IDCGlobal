@@ -12,7 +12,7 @@ $backgroundColor: white;
 body {
   width: 100%;
   height: 100vh;
-  background-color: $backgroundColor;
+  // background-color: $backgroundColor;
 }
 
 // Navbar
@@ -56,6 +56,18 @@ body {
   }
 }
 
+// .bgSpread {
+//   width: 100%; /* width of container */
+//   height: 60%; /* height of container */
+//   background-color: blue;
+//   object-fit: auto;
+//   overflow: hidden;
+//   img {
+//     width: 100%;
+//     margin-top: -50px;
+//   }
+// }
+
 // body {
 //   display: flex;
 //   min-height: 100vh;
@@ -69,8 +81,8 @@ body {
 // HOMEPAGE CODE START
 
 .wrapper {
-  padding: 20px;
-  display: block;
+  padding: 30px;
+  // display: block;
 }
 
 // h1 {
@@ -86,6 +98,16 @@ body {
 .imageGroup {
   position: relative;
   text-align: center;
+}
+
+h5 {
+  color: blue !important;
+}
+
+.map {
+  img {
+    margin: 20px;
+  }
 }
 
 .centerText {
@@ -117,9 +139,16 @@ body {
   float: left;
 }
 
+.blue-text {
+  color: blue;
+  font-family: "Oswald", sans-serif;
+}
+
 .blueBackground {
   background-color: blue;
   padding: 20px;
+  width: 100vw;
+  height: 200px;
 }
 
 // HOMEPAGE CODE END
