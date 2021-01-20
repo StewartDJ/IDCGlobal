@@ -1,3 +1,17 @@
+.red-bold {
+  color: #802020;
+  font-weight: 700;
+}
+
+footer a {
+  color: yellow;
+  font-weight: 700;
+}
+
+footer a:hover {
+  color: white;
+}
+
 body {
   width: 100%;
 }

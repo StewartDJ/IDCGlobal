@@ -3,7 +3,22 @@ $blueOne: blue;
 $blueTwo: rgb(17, 17, 117);
 $backgroundColor: white;
 $primary: rgb(1, 87, 155);
+$redColor: rgb(128, 32, 32);
 
+.red-bold {
+  color: $redColor;
+  font-weight: 700;
+}
+
+footer {
+  a {
+    color: yellow;
+    font-weight: 700;
+  }
+  a:hover {
+    color: white;
+  }
+}
 // All PAGES
 
 // * {
