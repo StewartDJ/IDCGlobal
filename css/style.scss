@@ -49,7 +49,7 @@ body {
 
 .logo {
   width: 50px;
-  background-color: blue;
+  background-color: $blueOne;
   height: 2vw;
 }
 
@@ -219,12 +219,12 @@ body {
 // }
 
 .blue-text {
-  color: blue;
+  color: $blueOne;
   font-family: "Oswald", sans-serif;
 }
 
 .blueBackground {
-  background-color: blue;
+  background-color: $blueOne;
   width: 100vw;
   height: 200px;
   float: left;
@@ -236,7 +236,7 @@ body {
 // NEWS PAGE CODE END
 
 .bg-white {
-  border-left: blue 15px solid;
+  border-left: $blueOne 15px solid;
 }
 
 .underline {
@@ -331,7 +331,7 @@ h2 {
 
 .contacts {
   border-right: black 5px solid;
-  background-color: blue;
+  background-color: $blueOne;
   color: white;
   float: left;
   padding: 50px;
