@@ -248,7 +248,10 @@ body {
 // NEWS PAGE CODE END
 
 .bg-white {
-  border-left: $blueOne 15px solid;
+  border-left: $primary 15px solid;
+  border-bottom: $primary 2px solid;
+  border-top: $primary 2px solid;
+  border-right: $primary 2px solid;
 }
 
 .underline {
@@ -310,6 +313,16 @@ body {
 }
 h2 {
   text-align: center;
+}
+
+#news-banner {
+  // width: 100%; /* width of container */
+  height: 40vw; /* height of container */
+  overflow: hidden;
+  img {
+    width: 100%;
+    margin-top: 0px;
+  }
 }
 
 // CONTACT PAGE

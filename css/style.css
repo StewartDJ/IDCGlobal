@@ -163,7 +163,10 @@ body {
 }
 
 .bg-white {
-  border-left: blue 15px solid;
+  border-left: #01579b 15px solid;
+  border-bottom: #01579b 2px solid;
+  border-top: #01579b 2px solid;
+  border-right: #01579b 2px solid;
 }
 
 .underline {
@@ -234,6 +237,17 @@ body {
 
 h2 {
   text-align: center;
+}
+
+#news-banner {
+  height: 40vw;
+  /* height of container */
+  overflow: hidden;
+}
+
+#news-banner img {
+  width: 100%;
+  margin-top: 0px;
 }
 
 #contact-container {
