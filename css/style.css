@@ -5,12 +5,17 @@
 }
 
 footer a {
-  color: yellow;
+  color: #fdff94;
   font-weight: 700;
 }
 
 footer a:hover {
   color: white;
+}
+
+.yellow-bold {
+  color: #fdff94;
+  font-weight: 500;
 }
 
 body {
@@ -110,6 +115,10 @@ body {
 
 .image-trim-card img {
   width: 100%;
+}
+
+.bulletPoints {
+  list-style-type: circle;
 }
 
 .center {

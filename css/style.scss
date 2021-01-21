@@ -1,9 +1,11 @@
 // Variables
 $blueOne: blue;
-$blueTwo: rgb(17, 17, 117);
+$blueTwo: rgb(13, 13, 121);
+
 $backgroundColor: white;
 $primary: rgb(1, 87, 155);
 $redColor: rgb(128, 32, 32);
+$yellow: rgb(253, 255, 148);
 
 .red-bold {
   color: $redColor;
@@ -13,13 +15,19 @@ $redColor: rgb(128, 32, 32);
 
 footer {
   a {
-    color: yellow;
+    color: $yellow;
     font-weight: 700;
   }
   a:hover {
     color: white;
   }
 }
+
+.yellow-bold {
+  color: $yellow;
+  font-weight: 500;
+}
+
 // All PAGES
 
 // * {
@@ -128,6 +136,10 @@ body {
     width: 100%;
     // margin: -10px 0px 0px -180px;
   }
+}
+
+.bulletPoints {
+  list-style-type: circle;
 }
 
 // .bgSpread {
