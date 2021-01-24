@@ -438,7 +438,7 @@ h2 {
 }
 
 #technology-container {
-  margin: 50px;
+  // margin: 50px;
   width: 100vw;
   text-align: center;
 
@@ -454,6 +454,14 @@ h2 {
 
   .banner {
     height: 40vh;
+  }
+
+  .font-size-med {
+    font-weight: 100;
+  }
+
+  .font-size-sm {
+    font-size: 40px;
   }
 
   .card {
