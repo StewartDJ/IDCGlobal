@@ -366,7 +366,7 @@ h2 {
 }
 
 #technology-container {
-  margin: 20px;
+  margin: 50px;
   width: 100vw;
   text-align: center;
 }
@@ -376,13 +376,55 @@ h2 {
 }
 
 #construction-container {
-  margin: 20px;
+  background-color: white;
   width: 100vw;
   height: 100%;
-  text-align: center;
+}
+
+#construction-container .banner {
+  height: 40vh;
 }
 
 #construction-container .card {
   display: inline-block;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#construction-container .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#construction-container .row > div[class*="col-"] {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#construction-container .construction {
+  padding: 40px;
+  color: black;
+  background-color: #01579b;
+  justify-items: center;
+  width: 100%;
+  margin: auto;
+}
+
+#construction-container .construction .p {
+  margin-top: 40px;
+}
+
+#construction-container footer {
+  float: left;
+}
+
+#construction-container .text-align-left {
+  text-align: left;
 }
 /*# sourceMappingURL=style.css.map */
