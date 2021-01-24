@@ -422,8 +422,19 @@ h2 {
 }
 
 #logistics-container {
+  background-image: url("../assets/train-yard_MJ5r3vdu.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
   width: 100%;
-  height: 80vh;
+  padding-top: 60px;
+  padding: 20px;
+  height: 100vw;
+  color: white;
+  justify-content: center;
+  text-align: center;
+  p {
+    font-size: 2rem;
+  }
 }
 
 #technology-container {
