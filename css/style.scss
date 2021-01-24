@@ -499,3 +499,24 @@ h2 {
 .drop-shadow {
   text-shadow: 2px 2px 2px grey;
 }
+
+#technology-banner {
+  width: 100%; /* width of container */
+  height: 40vw; /* height of container */
+  overflow: hidden;
+  img {
+    width: 100%;
+    margin-top: 0px;
+  }
+}
+
+#construction-banner {
+  width: 100%;
+  height: 70vh;
+  object-fit: auto;
+  overflow: hidden;
+  img {
+    width: 100%;
+    margin-top: -100px;
+  }
+}
