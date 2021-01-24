@@ -1,7 +1,6 @@
 .red-bold {
   color: #802020;
   font-weight: 700;
-  margin: 10px;
 }
 
 footer a {
@@ -440,5 +439,9 @@ h2 {
 
 #construction-container .text-align-left {
   text-align: left;
+}
+
+.drop-shadow {
+  text-shadow: 2px 2px 2px grey;
 }
 /*# sourceMappingURL=style.css.map */

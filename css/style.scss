@@ -10,7 +10,7 @@ $yellow: rgb(253, 255, 148);
 .red-bold {
   color: $redColor;
   font-weight: 700;
-  margin: 10px;
+  // margin: 10px;
 }
 
 footer {
@@ -494,4 +494,8 @@ h2 {
   .text-align-left {
     text-align: left;
   }
+}
+
+.drop-shadow {
+  text-shadow: 2px 2px 2px grey;
 }
