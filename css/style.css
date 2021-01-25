@@ -360,7 +360,7 @@ h2 {
 }
 
 #logistics-container {
-  background-image: url("../assets/graphicstock-silhouette-of-hovering-drone-taking-pictures-of-green-meadows-and-hills-at-sunset_HOG4hunSfZ.jpg");
+  background-image: url("../assets/graphicstock-night-sky-hyden-western-australia_HOzATsweol.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -382,6 +382,7 @@ h2 {
   font-weight: 700;
   margin: auto;
   width: 80%;
+  height: 25%;
   text-align: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
