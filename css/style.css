@@ -364,8 +364,11 @@ h2 {
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  height: 100vh;
   color: white;
+}
+
+#logistics-container .card {
+  margin-bottom: 50px;
 }
 
 .width-class {

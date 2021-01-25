@@ -427,8 +427,11 @@ h2 {
   background-repeat: no-repeat;
   width: 100%;
   // float: left;
-  height: 100vh;
+  // height: 100vh;
   color: white;
+  .card {
+    margin-bottom: 50px;
+  }
 }
 
 .width-class {
