@@ -17,6 +17,10 @@ footer a:hover {
   font-weight: 500;
 }
 
+li {
+  text-align: left;
+}
+
 body {
   width: 100%;
 }
@@ -369,6 +373,12 @@ h2 {
 
 #logistics-container .card {
   margin-bottom: 50px;
+}
+
+.bulletPoint li {
+  font-size: 14px;
+  margin-left: 10px;
+  list-style-type: circle !important;
 }
 
 .width-class {

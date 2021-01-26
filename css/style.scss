@@ -30,6 +30,10 @@ footer {
 
 // All PAGES
 
+li {
+  text-align: left;
+}
+
 // * {
 //   font-family: "Oswald", sans-serif;
 // }
@@ -46,6 +50,7 @@ body {
   background-color: green;
   padding: 20px;
   height: 100%;
+
   img {
     height: 90px;
   }
@@ -432,6 +437,17 @@ h2 {
   .card {
     margin-bottom: 50px;
   }
+}
+
+.bulletPoint {
+  li {
+    font-size: 14px;
+    margin-left: 10px;
+    list-style-type: circle !important;
+  }
+  // background-color: $primary;
+  // height: 20px;
+  // width: 20px;
 }
 
 .width-class {
