@@ -374,15 +374,10 @@ h2 {
 
 .log-banner {
   width: 100%;
-  height: 70vh;
-  -o-object-fit: auto;
-     object-fit: auto;
-  overflow: hidden;
 }
 
 .log-banner img {
   width: 100%;
-  margin-top: -100px;
 }
 
 .bulletPoint li {
@@ -505,14 +500,12 @@ h2 {
 
 #construction-banner {
   width: 100%;
-  height: 70vh;
-  -o-object-fit: auto;
-     object-fit: auto;
+  height: 60vw;
   overflow: hidden;
 }
 
 #construction-banner img {
   width: 100%;
-  margin-top: -100px;
+  margin-top: 0px;
 }
 /*# sourceMappingURL=style.css.map */
