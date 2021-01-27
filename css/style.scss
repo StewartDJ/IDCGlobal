@@ -430,13 +430,28 @@ h2 {
   // background-image: url("../assets/graphicstock-night-sky-hyden-western-australia_HOzATsweol.jpg");
   // background-size: cover;
   // background-repeat: no-repeat;
-  width: 100%;
+  // width: 100%;
   // height: 60vw;
   // float: left;
   // height: 100vh;
   // color: white;
+  width: 100vw;
+  height: 100%;
+
   .card {
-    margin-bottom: 50px;
+    // margin-bottom: 50px;
+    margin: 20px;
+  }
+}
+
+.log-banner {
+  width: 100%;
+  height: 70vh;
+  object-fit: auto;
+  overflow: hidden;
+  img {
+    width: 100%;
+    margin-top: -100px;
   }
 }
 
