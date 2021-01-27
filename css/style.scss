@@ -444,14 +444,24 @@ h2 {
   }
 }
 
+// .log-banner {
+//   width: 100%;
+//   // height: 70vh;
+//   // object-fit: auto;
+//   // overflow: hidden;
+//   img {
+//     width: 100%;
+//     // margin-top: -100px;
+//   }
+// }
+
 .log-banner {
   width: 100%;
-  // height: 70vh;
-  // object-fit: auto;
-  // overflow: hidden;
+  height: 50vw;
+  overflow: hidden;
   img {
     width: 100%;
-    // margin-top: -100px;
+    margin-top: 0px;
   }
 }
 
@@ -475,6 +485,10 @@ h2 {
 .logistics-info {
   margin-left: 70px;
   margin-right: 70px;
+  // .card {
+  //   margin-top: 20px;
+  //   margin-bottom: 20px;
+  // }
 }
 
 .logistics-text {

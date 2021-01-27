@@ -374,10 +374,13 @@ h2 {
 
 .log-banner {
   width: 100%;
+  height: 50vw;
+  overflow: hidden;
 }
 
 .log-banner img {
   width: 100%;
+  margin-top: 0px;
 }
 
 .bulletPoint li {
