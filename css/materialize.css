@@ -8575,7 +8575,7 @@ input[type="range"]::-ms-thumb {
 .slider .indicators .indicator-item.active {
   background-color: #4caf50;
 }
-
+/* 
 .carousel {
   overflow: hidden;
   position: relative;
@@ -8667,7 +8667,7 @@ input[type="range"]::-ms-thumb {
 .carousel.scrolling .carousel-item .materialboxed,
 .carousel .carousel-item:not(.active) .materialboxed {
   pointer-events: none;
-}
+} */
 
 .tap-target-wrapper {
   width: 800px;

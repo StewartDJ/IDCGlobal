@@ -427,13 +427,14 @@ h2 {
 }
 
 #logistics-container {
-  background-image: url("../assets/graphicstock-night-sky-hyden-western-australia_HOzATsweol.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+  // background-image: url("../assets/graphicstock-night-sky-hyden-western-australia_HOzATsweol.jpg");
+  // background-size: cover;
+  // background-repeat: no-repeat;
   width: 100%;
+  // height: 60vw;
   // float: left;
   // height: 100vh;
-  color: white;
+  // color: white;
   .card {
     margin-bottom: 50px;
   }
@@ -465,7 +466,7 @@ h2 {
   font-weight: 700;
   margin: auto;
   width: 80%;
-  height: 25%;
+  // height: 25%;
   text-align: center;
   justify-content: center;
   p {
